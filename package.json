@@ -1,0 +1,16 @@
+{
+  "name": "seams-shell-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "seams-shell workspace: seams for shell tooling (ShellCheck, bash, shfmt and the typed shfmt AST).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai-swfactory-oss/seams-shell.git"
+  },
+  "packageManager": "pnpm@10.32.1",
+  "devDependencies": {
+    "@types/node": "^24.0.0"
+  }
+}
