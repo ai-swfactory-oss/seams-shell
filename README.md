@@ -2,7 +2,7 @@
 
 Seams for shell tooling: ShellCheck, bash, shfmt and the typed shfmt AST. Each package is a typed SDK seam over one tool, with a fake under `./testing`.
 
-The packages are skeletons for now: their code arrives by migration from the `ai-swfactory/seams` monorepo.
+This repository holds only the guarded skeleton so far: `createShellcheck()` returns a seam whose `check()` reports no findings, `createBash()` one whose `run()` exits 0 with empty output, `createShfmt()` one whose `format()` returns empty text, and `createShfmtAst()` one whose `parse()` returns a `File` with no statements; each package's `./testing` holds a fake of it.
 
 ## Packages
 
