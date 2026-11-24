@@ -1,0 +1,4 @@
+ShfmtAst: interface ShfmtAst { readonly parse: () => ShfmtAstFile; }
+ShfmtAstFile: interface ShfmtAstFile { readonly type: 'File'; readonly statements: readonly ShfmtAstStatement[]; }
+ShfmtAstStatement: interface ShfmtAstStatement { readonly type: string; }
+createShfmtAst: const createShfmtAst: () => ShfmtAst

@@ -1,0 +1,3 @@
+Shfmt: interface Shfmt { readonly format: () => ShfmtResult; }
+ShfmtResult: interface ShfmtResult { readonly formatted: string; }
+createShfmt: const createShfmt: () => Shfmt

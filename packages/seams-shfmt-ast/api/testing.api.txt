@@ -1,0 +1,1 @@
+createFakeShfmtAst: const createFakeShfmtAst: (file?: ShfmtAstFile) => ShfmtAst

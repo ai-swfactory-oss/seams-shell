@@ -1,7 +1,6 @@
 {
   "name": "seams-shell-monorepo",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "license": "MIT",
   "description": "seams-shell workspace: seams for shell tooling (ShellCheck, bash, shfmt and the typed shfmt AST).",

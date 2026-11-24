@@ -1,0 +1,4 @@
+Shellcheck: interface Shellcheck { readonly check: () => ShellcheckResult; }
+ShellcheckFinding: interface ShellcheckFinding { readonly code: number; readonly line: number; readonly message: string; }
+ShellcheckResult: interface ShellcheckResult { readonly findings: readonly ShellcheckFinding[]; }
+createShellcheck: const createShellcheck: () => Shellcheck
